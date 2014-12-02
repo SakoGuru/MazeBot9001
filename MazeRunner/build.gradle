@@ -1,0 +1,8 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    apply plugin: 'groovy'
+    compile 'org.codehaus.groovy:groovy-all:2.3.8'
+}

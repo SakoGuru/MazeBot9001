@@ -1,0 +1,3 @@
+rootProject.name = 'MazeBot9001'
+
+include ':MazeRunner'
