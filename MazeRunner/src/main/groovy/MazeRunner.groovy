@@ -1,15 +1,25 @@
 import MazeLoader
 class MazeRunner implements Runnable{
-    def static loader = new MazeLoader("maze.txt")
+    final String[] args
 
     public void run(){
-        loader.readFile()
-        loader.prettyPrint()
+        try {
+            def loader = new MazeLoader(args[0])
+            loader.readFile()
+            loader.prettyPrint()
+        } catch (Exception e){
+            println("There was a problem running the MazeBot: " + e)
+        }
     }
 
     public static void main(String[] args){
-        loader.readFile()
-        loader.prettyPrint()
+        try{
+            def loader = new MazeLoader(args[0])
+            loader.readFile()
+            loader.prettyPrint()
+        } catch (Exception e){
+            println("There was a problem running the MazeBot: " + e)
+        }
     }
 
 
