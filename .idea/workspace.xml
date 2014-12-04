@@ -2,29 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a6a8bf-bde1-4c17-8f1f-b3dc69efde9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure1_closure5_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure1_closure5_closure7_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\GroovyWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\libs\MazeRunner.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\tmp\jar\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\build\libs\MazeBot9001-1.0.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/CellType.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/CellType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MazeRunner/src/main/groovy/Color.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeNavigator.groovy" />
+      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\MazeLoader$_prettyPrint_closure2_closure4_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\src\main\groovy\CellType.groovy" afterPath="" />
+      <change type="MODIFICATION" beforePath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\CellType.class" afterPath="C:\Users\Luke\IdeaProjects\MazeBot9001\MazeRunner\build\classes\main\CellType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_prettyPrint_closure2.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_prettyPrint_closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_prettyPrint_closure2_closure4.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_prettyPrint_closure2_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_prettyPrint_closure2_closure4_closure5.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_prettyPrint_closure2_closure4_closure5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_readFile_closure1.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_readFile_closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_readFile_closure1_closure3.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader$_readFile_closure1_closure3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeLoader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeRunner.class" afterPath="$PROJECT_DIR$/MazeRunner/build/classes/main/MazeRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy" afterPath="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy" afterPath="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MazeBot9001.iws" />
@@ -59,28 +49,28 @@
       <file leaf-file-name="MazeLoader.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1003">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="1360">
+              <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradlew.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <file leaf-file-name="Color.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/Color.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1632">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapWithDefault.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/dev/groovy-2.3.8/lib/groovy-2.3.8.jar!/groovy/lang/MapWithDefault.class">
+      <file leaf-file-name="MazeNavigator.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeNavigator.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1003">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.50265956" vertical-offset="916" max-vertical-offset="1377">
+              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -89,18 +79,8 @@
       <file leaf-file-name="MazeRunner.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08252427" vertical-offset="0" max-vertical-offset="412">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="748">
+              <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -608,15 +588,16 @@
         <option value="$PROJECT_DIR$/MazeRunner.groovy" />
         <option value="$PROJECT_DIR$/MazeRunner/src/MazeRunner.groovy" />
         <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/CellType.groovy" />
-        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy" />
         <option value="$PROJECT_DIR$/MazeRunner/build.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/GroovyWrapper.groovy" />
         <option value="$PROJECT_DIR$/groovyJarWrapper.bat" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/CellType.groovy" />
+        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy" />
+        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy" />
+        <option value="$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeNavigator.groovy" />
       </list>
     </option>
   </component>
@@ -648,6 +629,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -680,10 +663,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MazeBot9001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MazeBot9001" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MazeRunner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -991,11 +998,11 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.MazeBot9001 [clean]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.MazeBot9001 [build]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.MazeBot9001 [wrapJar]" />
-      <item index="3" class="java.lang.String" itemvalue="Groovy.MazeRunner" />
-      <item index="4" class="java.lang.String" itemvalue="Groovy.MazeRunner w/Args" />
+      <item index="0" class="java.lang.String" itemvalue="Groovy.MazeRunner" />
+      <item index="1" class="java.lang.String" itemvalue="Groovy.MazeRunner w/Args" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.MazeBot9001 [clean]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.MazeBot9001 [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.MazeBot9001 [wrapJar]" />
       <item index="5" class="java.lang.String" itemvalue="JAR Application.MazeBot9001-1.0.jar" />
       <item index="6" class="java.lang.String" itemvalue="JAR Application.MazeRunner.jar" />
     </list>
@@ -1020,6 +1027,13 @@
       <option name="number" value="Default" />
       <updated>1417385029408</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added args to running the MazeRunner so any filename can be supplied and it will run properly (the compiled Jar is unaffected).">
+      <created>1417580674902</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1417580674902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1037,20 +1051,20 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37084672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15541264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25937834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15541264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39913544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39913544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1068,24 +1082,12 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Added args to running the MazeRunner so any filename can be supplied and it will run properly (the compiled Jar is unaffected)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added args to running the MazeRunner so any filename can be supplied and it will run properly (the compiled Jar is unaffected)." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy</url>
-          <line>6</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1094,6 +1096,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeNavigator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="748">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1003">
@@ -1106,7 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1632">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1003">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1632">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,11 +1193,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1003">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/CellType.groovy">
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/Color.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
@@ -1203,18 +1225,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/CellType.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/dev/groovy-2.3.8/lib/groovy-2.3.8.jar!/groovy/lang/MapWithDefault.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1003">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1632">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,18 +1255,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GroovyWrapper.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2041" max-vertical-offset="2533">
-          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/maze.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,27 +1270,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1003">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3985849" vertical-offset="443" max-vertical-offset="884">
           <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1293,6 +1281,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08252427" vertical-offset="0" max-vertical-offset="412">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GroovyWrapper.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1055045" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.8/e24e8d0280fdf11364c64b98d646e6dee780b96c/groovy-all-2.3.8-sources.jar!/org/codehaus/groovy/runtime/DefaultGroovyMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324468" vertical-offset="49328" max-vertical-offset="240278">
+          <caret line="3056" column="24" selection-start-line="3056" selection-start-column="24" selection-end-line="3056" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.3.8/e24e8d0280fdf11364c64b98d646e6dee780b96c/groovy-all-2.3.8-sources.jar!/groovy/util/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1052632" vertical-offset="6119" max-vertical-offset="10030">
+          <caret line="407" column="15" selection-start-line="407" selection-start-column="15" selection-end-line="407" selection-end-column="15" />
+          <folding>
+            <element signature="e#3004#3005#0" expanded="false" />
+            <element signature="e#3054#3055#0" expanded="false" />
+            <element signature="e#13770#13771#0" expanded="false" />
+            <element signature="e#13803#13804#0" expanded="false" />
+            <element signature="e#14038#14039#0" expanded="false" />
+            <element signature="e#14110#14111#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/Color.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeRunner.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="748">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeLoader.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="1360">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MazeRunner/src/main/groovy/MazeNavigator.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50265956" vertical-offset="916" max-vertical-offset="1377">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding />
         </state>
       </provider>
