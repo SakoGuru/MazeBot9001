@@ -19,12 +19,13 @@ class MazeLoader {
         }
         else{
             //node attributes
-            def attribs = [depth:0]
+            def attribs = [depth:-1]
             attribs += [color:Color.WHITE]
 
             //Loosely Based off of a chunk of code for parsing at work (I am a Software Developer I at Shelter)
             //which in turn from my googling seems to be based off of this stack overflow:
             //http://stackoverflow.com/questions/3360191/groovy-parsing-text-file
+            //TODO tack on the \n node (as a wall) to each line!
             maze = file.text.split('\n').inject([]) {list, line ->
 
                 //Get the y coordinate for this line
@@ -58,12 +59,21 @@ class MazeLoader {
                     }
 
             }
+
+            //put the \n wall to the end of each row
+            maze.eachWithIndex { row, i ->
+                def last = row.size()
+                attribs += [print:'\n']
+                attribs += [y:i]
+                attribs += [x:last]
+                row.push(new Node(null, "wall", attribs))
+            }
         }
     }
 
     def prettyPrint() {
         maze.eachWithIndex{ current, index ->
-
+            current.pop()//Clear off the new line to now mess up the print.
             current.each{
                 //print it[0] //Print first value of each array pair aka the map
                 print it.attribute('print')
