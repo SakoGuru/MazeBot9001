@@ -9,7 +9,3 @@ runner and select run after compiling.
 Alternatively if you do not have groovy installed simply type
 'java -jar MazeRunner.jar'
 
-This build doesn't use Args it assumes a file named 'maze.txt' will
-exist in the same directory it is being run from. To proove it
-simply place or replace a different maze named 'maze.txt' in the
-directory the jar is running out of.

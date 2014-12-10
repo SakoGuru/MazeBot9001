@@ -8,7 +8,7 @@ dependencies {
 version = '1.0'
 mainClassName='MazeRunner'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.7
 version = '1.0'
 
 repositories {
