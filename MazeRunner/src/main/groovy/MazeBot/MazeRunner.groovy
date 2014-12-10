@@ -1,5 +1,4 @@
-import MazeLoader
-
+package MazeBot
 //Main for running through the maze.  Loads in all of the components and executes them in order.
 //Provides runnables as both a groovy script and a jar/java class.
 class MazeRunner implements Runnable{
@@ -25,7 +24,7 @@ class MazeRunner implements Runnable{
             loader.prettyPrint()
         } catch (Exception e){
             //display an error message
-            println("There was a problem running the MazeRunner could not continue since there was and error\n");
+            println("There was a problem running the MazeBot.MazeRunner could not continue since there was and error\n");
             println("navigating the maze which was serious enough to halt the traversal entirely.  Consider checking your\n")
             println("input to ensure it is valid.")
         }
@@ -51,7 +50,7 @@ class MazeRunner implements Runnable{
             loader.prettyPrint()
         } catch (Exception e){
             //display the error message
-            println("There was a problem running the MazeRunner could not continue since there was and error\n");
+            println("There was a problem running the MazeBot.MazeRunner could not continue since there was and error\n");
             println("navigating the maze which was serious enough to halt the traversal entirely.  Consider checking your\n")
             println("input to ensure it is valid.")
         }

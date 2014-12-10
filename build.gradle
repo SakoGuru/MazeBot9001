@@ -6,7 +6,7 @@ dependencies {
 }
 
 version = '1.0'
-mainClassName='MazeRunner'
+mainClassName='MazeBot.MazeRunner'
 
 sourceCompatibility = 1.7
 version = '1.0'

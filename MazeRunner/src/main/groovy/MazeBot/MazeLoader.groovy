@@ -1,8 +1,10 @@
+package MazeBot
+
 import groovy.transform.Canonical
 
 //Canonical takes care of all the getters and setters and any combination of
 //constructors using the variables and methods provided.
-//MazeLoader is responsible for loading in the file specified and constructing the matrix
+//MazeBot.MazeLoader is responsible for loading in the file specified and constructing the matrix
 //representing the maze.  Additionally it provides a print function to reconstruct the maze
 //as it was presented originally, with the discovered (or not) path from S to E.
 @Canonical

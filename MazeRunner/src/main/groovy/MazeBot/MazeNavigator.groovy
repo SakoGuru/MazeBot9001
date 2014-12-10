@@ -1,3 +1,5 @@
+package MazeBot
+
 import groovy.transform.Canonical
 
 @Canonical
