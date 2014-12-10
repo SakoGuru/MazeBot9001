@@ -10,7 +10,12 @@ import groovy.transform.Canonical
 @Canonical
 class MazeLoader {
     String fileName
-    def maze = []
+    public def maze = []
+
+    //Make a constructor for the Java based MazeRunner
+    public MazeLoader(String fileName){
+        this.fileName = fileName
+    }
 
     //Map the coordinates for the node
     Map<Integer, Integer> coords

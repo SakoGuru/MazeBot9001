@@ -6,6 +6,10 @@ import groovy.transform.Canonical
 class MazeNavigator {
     def maze = []
 
+    public MazeNavigator(Object maze){
+        this.maze = maze
+    }
+
     //Accounts for trixies where there are multiple starts.
     //Note only really supports 1 S per open region (See crazyMaze.txt)
     def pathfinder(Node[] nodes = findStart()){
