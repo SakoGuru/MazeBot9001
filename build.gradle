@@ -19,7 +19,12 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.2.1'
 }
 
-
+tasks.withType(GroovyCompile) {
+    configure(groovyOptions.forkOptions) {
+        memoryMaximumSize = '1g'
+        jvmArgs = ['-XX:MaxPermSize=512m', '-Xms512m', '-Xmx1g']
+    }
+}
 
 task wrapJar(type: Jar,dependsOn:[':compileJava',':compileGroovy']) {
     from files(sourceSets.main.output.classesDir)
