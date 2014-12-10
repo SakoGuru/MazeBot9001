@@ -19,6 +19,12 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.2.1'
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
 tasks.withType(GroovyCompile) {
     configure(groovyOptions.forkOptions) {
         memoryMaximumSize = '1g'
