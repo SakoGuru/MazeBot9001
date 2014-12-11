@@ -13,7 +13,7 @@ class MazeLoader {
     public def maze = []
 
     //Make a constructor for the Java based MazeRunner
-    public MazeLoader(String fileName){
+    public init(String fileName){
         this.fileName = fileName
     }
 

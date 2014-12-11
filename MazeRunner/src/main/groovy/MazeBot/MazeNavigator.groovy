@@ -6,7 +6,7 @@ import groovy.transform.Canonical
 class MazeNavigator {
     def maze = []
 
-    public MazeNavigator(Object maze){
+    public init(Object maze){
         this.maze = maze
     }
 
