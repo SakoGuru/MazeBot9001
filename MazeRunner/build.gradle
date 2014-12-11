@@ -26,7 +26,7 @@ jar {
 
 tasks.withType(GroovyCompile) {
     configure(groovyOptions.forkOptions) {
-        memoryMaximumSize = '1g'
-        jvmArgs = ['-XX:MaxPermSize=512m', '-Xms512m', '-Xmx1g']
+        memoryMaximumSize = '512m'
+        jvmArgs = ['-XX:MaxPermSize=128m', '-Xms128m', '-Xmx256m']
     }
 }
